@@ -1,9 +1,9 @@
 # 18ma573ZhiyuanShe
 Computational methods on financial math
-## Homework1: [ipynb](src/hw1.ipynb)
+## Homework1: <br>
+[[ipynb](src/hw1.ipynb)]GitHub+Colab Setup
 ## Homework2: <br>
+- [[ipynb](src/hw2.ipynb)] Second order finite difference operator <br>
 
-1. [[ipynb](src/hw2.ipynb)] Second order finite difference operator <br>
-
-2.[[ipynb](src/hw2_1.ipynb)] Finite difference operator with higher order convergence 
+- [[ipynb](src/hw2_1.ipynb)] Finite difference operator with higher order convergence 
 ## Homework3: [ipynb](src/HW3_1.ipynb)
