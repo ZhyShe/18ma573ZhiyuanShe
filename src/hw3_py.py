@@ -8,6 +8,7 @@ Original file is located at
 """
 
 import numpy as np
+import scipy.stats as ss
 import matplotlib.pyplot as plt
 
 # the following codes are used to define option class
