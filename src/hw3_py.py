@@ -37,52 +37,5 @@ class Option:
       results.append(np.max([0,(s-K)*Otype]))
     return results
 
-# We use the following codes to compute the payoff K-strike straddle
-'''
-K: Strike Price
-S: The Exercise Price
 
-'''
-# Code starts here
-#-------------------------
-def Straddle(K, S):
-  Calloption=Option(Otype=1,Strike=K)
-  Putoption=Option(Otype=-1,Strike=K)
-  P1=Option.Payoff(Calloption,S)
-  P2=Option.Payoff(Putoption,S)
-  return np.add(P1,P2)
-s=np.linspace(20,61)
-K=40
-ys=Straddle(K,s)
-plt.figure('Straddle')
-plt.title('Straddle')
-plt.xlabel('Exercise Price')
-plt.ylabel('Payoff')
-plt.plot(s,-ys)
-plt.show()
-
-# We use following code to compute Butterfly strategy option
-'''
-K_1,K_2,K_3: strike price
-S: exercise price
-K_1<K_2<K_3
-
-'''
-#code starts here
-#------------------------
-def Butterfly(K_1, K_2, K_3, S):
-  Calloption=Option(Otype=1, Strike=K_3)
-  Putoption=Option(Otype=-1, Strike=K_1)
-  P_1=Option.Payoff(Calloption, S)
-  P_2=Option.Payoff(Putoption,S)
-  return np.add(np.add(P_1,P_2),-Straddle(K_2, S))
-S=np.linspace(20,61)
-K=40
-ys=Butterfly(35, 40, 45, S)
-plt.figure('Butterfly')
-plt.title('Butterfly')
-plt.xlabel('Exercise Price')
-plt.ylabel('Payoff')
-plt.plot(S,ys)
-plt.show()
 
