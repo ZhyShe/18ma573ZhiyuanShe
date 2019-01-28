@@ -8,3 +8,4 @@ Computational methods on financial math
 - [[ipynb](src/hw2_1.ipynb)] Finite difference operator with higher order convergence 
 ## Homework3: <br> 
 - [[ipynb](src/HW3_1.ipynb)] Payoff diagram of butterfly
+- [[ipynb](src/hw3_3.ipynb)] Implied volatility 
