@@ -37,5 +37,25 @@ class Option:
       results.append(np.max([0,(s-K)*Otype]))
     return results
 
-
+class GBM:
+  def __init__(self, init_state=100, drift_ratio=0.0475, vol_ratio=.2):
+    self.init_state = init_state
+    self.drift_ratio = drift_ratio
+    self.vol_ratio = vol_ratio
+    self.BsmPrice=0
+  @staticmethod
+  def bsm_price(gbm,option):
+    s0 = gbm.init_state
+    sigma = gbm.vol_ratio
+    r = gbm.drift_ratio
+    
+    otype = option.Otype
+    k = option.Strike
+    maturity = option.Maturity
+    
+    d1 = (np.log(s0 / k) + (r + 0.5 * sigma ** 2) 
+          * maturity) / (sigma * np.sqrt(maturity))
+    d2 = d1 - sigma * np.sqrt(maturity)
+    gbm.BsmPrice=(otype * s0 * ss.norm.cdf(otype * d1)- otype * np.exp(-r * maturity) * k * ss.norm.cdf(otype * d2))
+    return gbm.BsmPrice
 
