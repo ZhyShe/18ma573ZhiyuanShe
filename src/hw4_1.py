@@ -46,7 +46,5 @@ def calibration_bsm(gbm, Olist):
   init_vol=.1
   return so.fmin(err_function, init_vol, args = (gbm, Olist), disp = 0)[0]
 
-filter1 = list(filter(lambda x: x.Maturity == 2/12, Olist))
-calibrated_volatility1 = calibration_bsm(gbm, filter1)
-print('>>>>>>>> calibrated_volatility is ' + str(calibrated_volatility1))
+
 
