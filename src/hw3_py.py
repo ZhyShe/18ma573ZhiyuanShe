@@ -29,11 +29,11 @@ class Option:
     self.Maturity=Maturity
     self.Market_Price=Market_Price
   @staticmethod
-  def Payoff(self, S):
+  def Payoff(option, S):
     results=[]
-    Otype=self.Otype
-    K=self.Strike
-    Maturity=self.Maturity
+    Otype=option.Otype
+    K=option.Strike
+    Maturity=option.Maturity
     for s in S:
       results.append(np.max([0,(s-K)*Otype]))
     return results
