@@ -60,10 +60,10 @@ class Gbm_1d(Sde_1d):
         sigma_hat=np.sqrt(sigma_hat_s)
         if otype==1:
             option=VanillaOption(otype = 1, strike = K, maturity= T, market_price=15.)
-            return np.exp([(r_hat-r)*T])*Gbm_1d(init_state=S0, drift_ratio=r_hat, vol_ratio=sigma_hat).bsm_price(option)
+            return float(np.exp([(r_hat-r)*T])*Gbm_1d(init_state=S0, drift_ratio=r_hat, vol_ratio=sigma_hat).bsm_price(option))
         else:
             option=VanillaOption(otype = -1, strike = K, maturity= T, market_price=15.)
-            return np.exp([(r_hat-r)*T])*Gbm_1d(init_state=S0, drift_ratio=r_hat, vol_ratio=sigma_hat).bsm_price(option)
+            return float(np.exp([(r_hat-r)*T])*Gbm_1d(init_state=S0, drift_ratio=r_hat, vol_ratio=sigma_hat).bsm_price(option))
             
 
 if __name__ == '__main__':
