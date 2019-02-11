@@ -13,5 +13,5 @@ Computational methods on financial math
 - [[ipynb](src/hw4_1.ipynb)] Volatility calibration for BSM
 - [[ipynb](src/hw4_2.ipynb)] calibration performance
 ## HomeWork5<br>
-- [[ipynb](src/hw_5.ipynb)] Estimating$\pi$
-- [[ipynb](src/hw5_2.ipynb)] Estimating $\pi$
+- [[ipynb](src/hw_5.ipynb)] Estimating pi
+- [[ipynb](src/hw5_2.ipynb)] Estimating pi
