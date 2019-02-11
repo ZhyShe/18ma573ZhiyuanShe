@@ -15,4 +15,3 @@ Computational methods on financial math
 ## HomeWork5<br>
 - [[ipynb](src/hw_5.ipynb)] Estimating$\pi$
 - [[ipynb](src/hw5_2.ipynb)] Estimating $\pi$
-- Monte Carlo basics: Estimating $\pi$
