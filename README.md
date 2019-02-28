@@ -17,4 +17,4 @@ Computational methods on financial math
 - [[ipynb](src/hw5_2.ipynb)] Estimating pi
 ## HomeWork6<br>
 - [[ipynb](src/hw6_1.ipynb)] Ordinary Monte Carlo
-- [[ipynb](src/hw5_2.ipynb)] Estimating pi
+- [[ipynb](src/hw6_2.ipynb)] Inverse transform method
