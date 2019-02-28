@@ -12,9 +12,9 @@ Computational methods on financial math
 ## Homework4:<br>
 - [[ipynb](src/hw4_1.ipynb)] Volatility calibration for BSM
 - [[ipynb](src/hw4_2.ipynb)] calibration performance
-## HomeWork5<br>
+## Homework5<br>
 - [[ipynb](src/hw_5.ipynb)] Estimating pi
 - [[ipynb](src/hw5_2.ipynb)] Estimating pi
-## HomeWork6<br>
+## Homework6<br>
 - [[ipynb](src/hw6_1.ipynb)] Ordinary Monte Carlo
 - [[ipynb](src/hw6_2.ipynb)] Inverse transform method
