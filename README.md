@@ -18,3 +18,4 @@ Computational methods on financial math
 ## Homework6<br>
 - [[ipynb](src/hw6_1.ipynb)] Ordinary Monte Carlo
 - [[ipynb](src/hw6_2.ipynb)] Inverse transform method
+- [[ipynb](src/hw6_3.ipynb)] exact sample
