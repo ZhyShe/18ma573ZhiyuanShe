@@ -15,3 +15,6 @@ Computational methods on financial math
 ## HomeWork5<br>
 - [[ipynb](src/hw_5.ipynb)] Estimating pi
 - [[ipynb](src/hw5_2.ipynb)] Estimating pi
+## HomeWork6<br>
+- [[ipynb](src/hw6_1.ipynb)] Ordinary Monte Carlo
+- [[ipynb](src/hw5_2.ipynb)] Estimating pi
