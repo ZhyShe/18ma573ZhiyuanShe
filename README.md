@@ -21,3 +21,4 @@ Computational methods on financial math
 - [[ipynb](src/hw6_3.ipynb)] exact sample
 ## Homework7<br>
 - [[ipynb](src/hw_7.ipynb)] Correlations to aac 
+- [[ipynb](src/hw7_2.ipynb)] Exact sampling: BSM + Knock-in
