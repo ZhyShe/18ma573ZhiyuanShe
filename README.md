@@ -19,3 +19,5 @@ Computational methods on financial math
 - [[ipynb](src/hw6_1.ipynb)] Ordinary Monte Carlo
 - [[ipynb](src/hw6_2.ipynb)] Inverse transform method
 - [[ipynb](src/hw6_3.ipynb)] exact sample
+## Homework7<br>
+- [[ipynb](src/hw_7.ipynb)] Correlations to aac 
