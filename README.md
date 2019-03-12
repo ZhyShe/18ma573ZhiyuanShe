@@ -23,3 +23,7 @@ Computational methods on financial math
 - [[ipynb](src/hw_7.ipynb)] Correlations to aac 
 - [[ipynb](src/hw7_2.ipynb)] Exact sampling: BSM + Knock-in
 - [[ipynb](src/hw7_3.ipynb)] vasicek model calibration
+## Homework8<br>
+- [[ipynb](src/hw_7.ipynb)] Correlations to aac 
+- [[ipynb](src/hw7_2.ipynb)] Exact sampling: BSM + Knock-in
+- [[ipynb](src/hw8_3.ipynb)] Derivation of characteristic function
