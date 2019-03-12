@@ -25,5 +25,5 @@ Computational methods on financial math
 - [[ipynb](src/hw7_3.ipynb)] vasicek model calibration
 ## Homework8<br>
 - [[ipynb](src/hw8_1.ipynb)] Fourier Transform Method 
-- [[ipynb](src/hw8_2.ipynb)] Exact sampling: BSM + Knock-in
+- [[ipynb](src/hw8_2.ipynb)] Heston
 - [[ipynb](src/hw8_3.ipynb)] Derivation of characteristic function
