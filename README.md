@@ -27,3 +27,6 @@ Computational methods on financial math
 - [[ipynb](src/hw8_1.ipynb)] Fourier Transform Method 
 - [[ipynb](src/hw8_2.ipynb)] Heston
 - [[ipynb](src/hw8_3.ipynb)] Derivation of characteristic function
+ [[ipynb](src/HW10.ipynb)]
+  [[ipynb](src/hw10_1.ipynb)]
+   [[ipynb](src/hw10_3.ipynb)]
