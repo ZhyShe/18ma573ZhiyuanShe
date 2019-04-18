@@ -34,3 +34,5 @@ Computational methods on financial math
 ## HW11<br>
 - 11.1 [[ipynb](src/hw11_1.ipynb)]
 - 11.2 [[ipynb](src/hw11_2.ipynb)]
+## HW12<br>
+- 12.1 [[ipynb](src/hw12_1.ipynb)]
